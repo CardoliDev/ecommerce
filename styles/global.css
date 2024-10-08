@@ -420,6 +420,7 @@ main {
 
 }
 
+
 .logo-footer {
     text-align: center;
 }
@@ -459,8 +460,10 @@ main {
         display: inline;
     }
 
+
     .download-options>div img {
         width: 120px;
+        
     }
 
     .copyright {
