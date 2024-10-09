@@ -60,6 +60,7 @@ nav ul {
     width: 30px;
     cursor: pointer;
     filter: brightness(6);
+    object-fit: cover;
 }
 
 .nav-icon-container img:first-child{
@@ -139,6 +140,7 @@ header {
 
 .header-bottom-side-right img{
     width: 70%;
+    object-fit: cover;
     
 }
 /* Media Query */
@@ -214,6 +216,7 @@ main {
 .cols-3 img {
     max-width: 102%;
     max-height: 90%;
+    object-fit: cover;
 }
 
 .cols-4{
@@ -224,6 +227,7 @@ main {
 .cols-4 img{
     max-width: 100%;
     max-height: 220px;
+    object-fit: cover;
 }
 
 .cols>* {
@@ -280,6 +284,7 @@ main {
 
 .exclusive-container img {
     max-width: 400px;
+    object-fit: cover;
 }
 
 /* Media queries*/
@@ -294,6 +299,7 @@ main {
     .cols-4 img{
         max-height: 120px;
         max-width: 120px;
+        object-fit: cover;
     }
 
     .cols-4 {
@@ -409,6 +415,7 @@ main {
     width: 180px;
     height: 100%;
     filter: grayscale(50);
+    object-fit: cover;
 }
 
 .img-download {
@@ -417,7 +424,7 @@ main {
     cursor: pointer;
     padding-bottom: 0%;
     margin-top: 0%;
-
+    object-fit: cover;
 }
 
 
@@ -463,6 +470,7 @@ main {
 
     .download-options>div img {
         width: 120px;
+        object-fit: cover;
         
     }
 
