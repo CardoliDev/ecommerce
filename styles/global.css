@@ -71,8 +71,19 @@ nav ul li {
     margin-right: 1.5rem;
     cursor: pointer;
 }
+nav ul a {
+    color: #fff;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 nav ul li:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}
+nav ul a:hover{
     transform: translateY(-5px);
     transition: all 0.2s;
     font-weight: bold;
@@ -290,6 +301,8 @@ main {
     
     .cols-3 {
         grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
     }
     .cols-4 img{
         max-height: 120px;
@@ -389,8 +402,8 @@ main {
     align-items: center;
     color: #8f8f8f;
     padding: 4rem 1rem;
-    gap: 2rem;
-    justify-content: space-evenly;
+    gap: 1rem;
+    justify-content: space-between;
 
 }
 
